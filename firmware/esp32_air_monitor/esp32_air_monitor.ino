@@ -26,10 +26,8 @@ const char* ssid     = "YOUR_WIFI_NAME";
 const char* password = "YOUR_WIFI_PASSWORD";
 
 /* ================= MQTT BROKER (Self-hosted Mosquitto on Railway) ================= */
-const char* mqtt_server = "yamabiko.proxy.rlwy.net";
-const int   mqtt_port   = 43213;
-const char* mqtt_user   = "";
-const char* mqtt_pass   = "";
+const char* mqtt_server = "metro.proxy.rlwy.net";
+const int   mqtt_port   = 49525;
 const char* device_id   = "ESP32_001";
 
 /* ================= TOPICS ================= */
