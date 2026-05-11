@@ -25,9 +25,9 @@
 const char* ssid     = "YOUR_WIFI_NAME";
 const char* password = "YOUR_WIFI_PASSWORD";
 
-/* ================= MQTT BROKER (Public - No account needed) ================= */
-const char* mqtt_server = "broker.hivemq.com";
-const int   mqtt_port   = 1883;
+/* ================= MQTT BROKER (Self-hosted Mosquitto on Railway) ================= */
+const char* mqtt_server = "yamabiko.proxy.rlwy.net";
+const int   mqtt_port   = 43213;
 const char* mqtt_user   = "";
 const char* mqtt_pass   = "";
 const char* device_id   = "ESP32_001";
