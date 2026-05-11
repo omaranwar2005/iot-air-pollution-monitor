@@ -11,7 +11,7 @@ ENV REACT_APP_SOCKET_URL=$REACT_APP_SOCKET_URL
 ENV REACT_APP_MQTT_URL=$REACT_APP_MQTT_URL
 
 COPY package*.json ./
-RUN npm ci
+RUN npm install --legacy-peer-deps
 
 COPY . .
 RUN npm run build
